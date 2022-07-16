@@ -13,7 +13,7 @@ Console.WriteLine(result.ToString());
 ```
 
 ```csharp
-var api = new OpenAI_API.OpenAIAPI("sk-myapikeyhere"););
+var api = new OpenAI_API.OpenAIAPI("sk-myapikeyhere");
 
 var result = await api.Search.GetBestMatchAsync("Washington DC", "Canada", "China", "USA", "Spain");
 Console.WriteLine(result);
